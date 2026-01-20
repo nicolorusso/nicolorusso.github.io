@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic | </title>
-    <link>http://localhost:1313/tags/academic/</link>
-      <atom:link href="http://localhost:1313/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nicolorusso.github.io/tags/academic/</link>
+      <atom:link href="https://nicolorusso.github.io/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_702a800cd775dbac.png</url>
+      <url>https://nicolorusso.github.io/media/icon_hu_702a800cd775dbac.png</url>
       <title>Academic</title>
-      <link>http://localhost:1313/tags/academic/</link>
+      <link>https://nicolorusso.github.io/tags/academic/</link>
     </image>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/blog/get-started/</link>
+      <link>https://nicolorusso.github.io/blog/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/get-started/</guid>
+      <guid>https://nicolorusso.github.io/blog/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -304,9 +304,9 @@
     
     <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>http://localhost:1313/events/example/</link>
+      <link>https://nicolorusso.github.io/events/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/example/</guid>
+      <guid>https://nicolorusso.github.io/events/example/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -791,7 +791,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7519dfcc27cf03dd985a63a0b9a6155b&#34;
-    href=&#34;http://localhost:1313/slides/example/&#34;
+    href=&#34;https://nicolorusso.github.io/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     
