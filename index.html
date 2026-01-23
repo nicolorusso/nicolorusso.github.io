@@ -4,7 +4,7 @@
       data-wc-theme-default="system"
       data-hbb-relurl="/">
   
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -59,7 +59,7 @@
   <meta name="description" content="The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nicolorusso.github.io/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
 
   
   
@@ -1213,9 +1213,7 @@
   
   
     
-      
-        <link rel="stylesheet" href="/css/_entry.3a3bbdfdb0bbdede13e23cfc72a6f4d039d077132813905f3e23b814cebf2c30.css" integrity="sha256-Oju9/bC73t4T4jz8cqb00DnQdxMoE5BfPiO4FM6/LDA=" crossorigin="anonymous">
-      
+      <link rel="stylesheet" href="/css/_entry.css">
     
   
 
@@ -1228,7 +1226,7 @@
 
   
 
-  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
+  <script src="/js/hb-head.min.js"></script>
 
   
   
@@ -1288,7 +1286,7 @@
     
   
 
-  <link rel="canonical" href="https://nicolorusso.github.io/" />
+  <link rel="canonical" href="http://localhost:1313/" />
 
   
   
@@ -1317,10 +1315,10 @@
     <meta property="twitter:creator" content="@LoreLabs_" />
   
   <meta property="og:site_name" content="Nicolò Russo" />
-  <meta property="og:url" content="https://nicolorusso.github.io/" />
+  <meta property="og:url" content="http://localhost:1313/" />
   <meta property="og:title" content="Nicolò Russo" />
-  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website." /><meta property="og:image" content="https://nicolorusso.github.io/media/icon_hu_702a800cd775dbac.png" />
-    <meta property="twitter:image" content="https://nicolorusso.github.io/media/icon_hu_702a800cd775dbac.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_702a800cd775dbac.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_702a800cd775dbac.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
@@ -1335,10 +1333,10 @@
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://nicolorusso.github.io/?q={search_term_string}",
+    "target": "http://localhost:1313/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
-  "url": "https://nicolorusso.github.io/"
+  "url": "http://localhost:1313/"
 }
 </script>
 
@@ -1650,8 +1648,8 @@
 
   <script
     defer
-    src="/js/hugo-blox-en.min.8e67887d1e4e773521ed17aef87acbf3d4d07207c99e1e3f4d76d00fc44e7065.js"
-    integrity="sha256-jmeIfR5OdzUh7Reu&#43;HrL89TQcgfJnh4/TXbQD8ROcGU="
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
   ></script>
 
   
@@ -1677,7 +1675,7 @@
 
 
 
-<script defer src="/js/hb-search.min.135366008264b9d452ff89aad28374bc7e4b40d2c047098318511786419873b0.js" integrity="sha256-E1NmAIJkudRS/4mq0oN0vH5LQNLARwmDGFEXhkGYc7A="></script>
+<script defer src="/js/hb-search.min.js"></script>
 
 
 
@@ -1761,7 +1759,7 @@
     <ul
       id="nav-menu"
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
-      mr-auto ml-6">
+      ">
       
       
       
@@ -1770,10 +1768,10 @@
       
       <li class="nav-item">
         <a
-          class="nav-link active"
+          class="nav-link "
           
-          href="/"
-        >Bio</a
+          href="/#publications"
+        >Publications</a
         >
       </li>
       
@@ -1786,8 +1784,8 @@
         <a
           class="nav-link "
           
-          href="/#papers"
-        >Papers</a
+          href="/#working-papers"
+        >Working papers</a
         >
       </li>
       
@@ -1800,8 +1798,8 @@
         <a
           class="nav-link "
           
-          href="/#talks"
-        >Talks</a
+          href="/files/cv_nico_current.pdf"
+        >CV</a
         >
       </li>
       
@@ -1814,50 +1812,8 @@
         <a
           class="nav-link "
           
-          href="/#news"
-        >News</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/experience/"
-        >Experience</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/projects/"
-        >Projects</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/courses/"
-        >Courses</a
+          href="/teaching/"
+        >Teaching</a
         >
       </li>
       
@@ -2668,6 +2624,43 @@
             </a>
           
           
+          
+          
+          
+          
+            
+            
+              
+            
+            
+            
+              
+            
+            
+            
+              
+            
+          
+          
+          
+            
+            
+            
+              
+                
+              
+              
+            
+            <a href="/files/cv_nico_current.pdf" target="_blank" rel="noopener" 
+               aria-label="CV"
+                title="Curriculum Vitae"
+               class="w-12 h-12 flex items-center justify-center rounded-full bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 
+                      shadow-md hover:shadow-xl hover:scale-110 hover:-translate-y-1 
+                      transition-all duration-300 border border-gray-200 dark:border-gray-700">
+              <span class="flex items-center justify-center leading-none text-2xl">CV</span>
+            </a>
+          
+          
         </div>
         
       </div>
@@ -2860,68 +2853,6 @@
         
         
         
-          
-        
-        
-        <div>
-          <div class="flex items-center gap-4 mb-8">
-            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
-              <svg class='w-6 h-6 text-primary-600 dark:text-primary-400' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09m8.445-7.188L18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456m-1.365 11.852L16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183l.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394l-1.183.394a2.25 2.25 0 0 0-1.423 1.423"/></svg>
-            </div>
-            
-            
-            
-              
-              
-                
-              
-            
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">Interests</h3>
-          </div>
-          <div class="flex flex-wrap gap-3">
-            
-            
-            
-            <span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
-                           hover:bg-primary-100 
-                           dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
-                           transition-all duration-200 cursor-default">
-              Macroeconomics
-            </span>
-            
-            
-            
-            
-            <span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
-                           hover:bg-primary-100 
-                           dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
-                           transition-all duration-200 cursor-default">
-              Public Economics
-            </span>
-            
-            
-            
-            
-            <span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
-                           hover:bg-primary-100 
-                           dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
-                           transition-all duration-200 cursor-default">
-              Health
-            </span>
-            
-            
-            
-            
-            <span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
-                           hover:bg-primary-100 
-                           dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
-                           transition-all duration-200 cursor-default">
-              Household Taxation
-            </span>
-            
-            
-          </div>
-        </div>
         
       </div>
     </div>
@@ -3052,7 +2983,7 @@
       
       Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
       <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
-         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Clone this template →</a>
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
     </p>  
 
 </footer>
