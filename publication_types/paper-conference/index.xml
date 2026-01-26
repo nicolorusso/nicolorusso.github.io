@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | </title>
-    <link>http://localhost:1313/publication_types/paper-conference/</link>
-      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:65383/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:65383/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_702a800cd775dbac.png</url>
+      <url>http://localhost:65383/media/icon_hu_702a800cd775dbac.png</url>
       <title>Paper-Conference</title>
-      <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <link>http://localhost:65383/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>http://localhost:1313/publications/conference-paper/</link>
+      <link>http://localhost:65383/publications/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/conference-paper/</guid>
+      <guid>http://localhost:65383/publications/conference-paper/</guid>
       <description>
 
 
